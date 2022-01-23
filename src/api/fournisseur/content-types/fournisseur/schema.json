@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fournisseurs",
+  "info": {
+    "singularName": "fournisseur",
+    "pluralName": "fournisseurs",
+    "displayName": "Fournisseur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
